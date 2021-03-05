@@ -1,0 +1,22 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <title>
+    {% if page.title == "Index" %}
+      {{ site.title }} | {{ site.tagline }}
+    {% else %}
+      {{ page.title }} | {{ site.title }}
+    {% endif %}
+  </title>
+
+  <meta name="description" content="{{ site.description }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="apple-touch-icon" href="{{ site.baseurl }}/favicon.png">
+  <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.png">
+
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/hydeaway.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/fa/css/fontawesome-all.css">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,900" rel="stylesheet">
+</head>

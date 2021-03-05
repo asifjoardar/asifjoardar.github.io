@@ -1,0 +1,29 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Md Asif Joardar
+tagline:          'A Jekyll Theme'
+# The description is used in the meta description tag (_includes/head.html).
+# If you want to use it in the sidebar, uncomment its code under the tagline
+# in _includes/sidebar.html
+description:      'student of CSE | Tech lover | Competitive Programmer | Open Source Enthusiast'
+url:              https://asifjoardar.github.io
+baseurl:          
+
+author:
+  name:           'Md Asif Joardar'
+  url:            https://asifjoardar.github.io
+
+paginate:         3
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+
+github:
+  repo:           https://github.com/asifjoardar/asifjoardar.github.io

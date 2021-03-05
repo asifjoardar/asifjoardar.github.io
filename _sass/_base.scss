@@ -1,0 +1,47 @@
+// Global font and font sizes
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+@media only screen and (min-width: $laptop-break) {
+  html {
+    font-size: 20px;
+  }
+}
+
+body {
+  color: #515151;
+}
+
+a {
+  color: $blue-link;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: $tablet-break) {
+  a:hover {
+    text-decoration: underline;
+  }
+  a:focus {
+    text-decoration: underline;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: initial;
+  margin-top: 2rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+em a {
+  color: $blue !important;
+}
+
+em a:hover {
+  text-decoration: none;
+}

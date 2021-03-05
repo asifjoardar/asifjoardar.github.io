@@ -1,0 +1,124 @@
+/*
+ * Sidebar
+ *
+ * Flexible banner for housing site name, intro, and "footer" content. Starts
+ * out above content in mobile and later moves to the side with wider viewports.
+ */
+
+.sidebar {
+  text-align: center;
+  padding: 2rem 1rem 1rem 1rem;
+  color: #818181;
+  background-color: #111;
+  background: linear-gradient(180deg, #222, #111);
+}
+
+@media (min-width: $tablet-break) {
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 350px;
+
+  }
+}
+
+@media (min-width: $laptop-break) {
+  .sidebar {
+    width: 410px;
+  }
+}
+
+/* Sidebar links */
+.sidebar a {
+  color: #fff;
+}
+
+/* About section */
+.sidebar-about h1 {
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  line-height: 1.15;
+  font-family: 'Playfair Display', serif;
+  font-size: 2.25rem;
+  letter-spacing: 0.03em;
+  font-weight: 900;
+}
+
+.sidebar-about p {
+  margin: 0.5rem 0;
+}
+
+@media (min-width: $laptop-break) {
+  .sidebar-about h1 {
+    font-size: 2.35rem;
+  }
+}
+
+/* Sidebar nav */
+.sidebar-nav {
+  margin-bottom: 1rem;
+}
+.sidebar-nav-item {
+  display: block;
+  line-height: 1.65;
+  font-size: 1.3rem;
+}
+
+a.sidebar-nav-item:focus {
+  text-decoration: none;
+  color: $blue;
+}
+
+@media (min-width: $tablet-break) {
+  a.sidebar-nav-item:hover {
+    text-decoration: none;
+    color: $blue;
+    -webkit-transition: 0.35s;
+    transition: 0.35s;
+  }
+}
+
+.sidebar-nav-item.active {
+  font-weight: bold;
+}
+
+/* Sidebar Social */
+.sidebar-social {
+  margin: 0.5rem 0;
+}
+
+.sidebar-social a {
+  color: #818181;
+  padding: 0 0.45rem;
+  font-size: 1.4rem;
+}
+
+.sidebar-social a:focus {
+  color: $blue;
+  text-decoration: none;
+}
+
+@media (min-width: $tablet-break) {
+  .sidebar-social a:hover {
+    text-decoration: none;
+    color: $blue;
+  }
+}
+
+/* Sticky sidebar
+ *
+ * Add the `sidebar-sticky` class to the sidebar's container to affix it the
+ * contents to the bottom of the sidebar in tablets and up.
+ */
+
+@media (min-width: $tablet-break) {
+  .sidebar-sticky {
+    position: absolute;
+    right:  1rem;
+    bottom: 1rem;
+    left:   1rem;
+  }
+}
