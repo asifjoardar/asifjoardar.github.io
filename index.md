@@ -73,7 +73,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-
+<!--
 <div class="pagination">
   {% if paginator.next_page %}
     <a class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}"><i class="fas fa-arrow-left"></i> &nbsp; Older</a>
@@ -90,7 +90,7 @@ Here are some ideas to get you started:
     <span class="pagination-item newer">Newer</span>
   {% endif %}
 </div>
-
 <div class="only-mobile alert">
   <a href="#" class="underline">Back to Top &nbsp; <i class="fa fa-arrow-circle-up"></i></a>
 </div>
+-->
