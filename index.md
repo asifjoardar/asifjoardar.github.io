@@ -1,10 +1,3 @@
-<!--
----
-layout: default
-title: Index
----
--->
-
 ---
 layout: page
 title: About
