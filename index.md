@@ -49,7 +49,7 @@ title: Index
 ## peace be upon you 😇
 I'm Asif, competetive programmer and undergraduate student of CSE and who loves to solve programming problems and participate online/offline programming competitions. Currently, i get familiar with web development and have a lot of interest in AI and ML.
 
-If you want to reach out to me, then just email me at ()[asif170088@diit.edu.bd].
+If you want to reach out to me, then just email me at [asif170088@diit.edu.bd](asif170088@diit.edu.bd).
 
 
 <!--
