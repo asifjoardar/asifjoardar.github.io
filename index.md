@@ -1,7 +1,15 @@
+<!--
 ---
 layout: default
 title: Index
 ---
+-->
+
+---
+layout: page
+title: About
+---
+
 <!--
 <div class="posts">
   {% for post in paginator.posts %}
