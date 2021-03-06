@@ -1,7 +1,14 @@
 ---
+layout: page
+title: About
+---
+
+<!--
+---
 layout: default
 title: Index
 ---
+-->
 
 <!--
 <div class="posts">
